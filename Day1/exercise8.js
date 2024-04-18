@@ -1,0 +1,10 @@
+let nombre1 = "Elsa";
+let apellido1 = "Pallito";
+let estadoCivil1 = "Divorciada";
+let pais1 = "Antigua y Barbuda";
+let edad1 = 60;
+console.log(nombre1);
+console.log(apellido1);
+console.log(estadoCivil1);
+console.log(pais1);
+console.log(edad1);
