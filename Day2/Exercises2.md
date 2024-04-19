@@ -80,8 +80,8 @@
 
 ## **Ejercicio: Nivel 3**
 
-- [ ] `El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y otros todavía están buscando su amor`. **Cuente** el número de palabras **amor** en esta oración.
-- [ ] Utilice **match()** para contar el número de todos **porque** en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
-- [ ] **Limpie** el siguiente texto y **encuentre** la palabra **más frecuente** (pista, use **replace** y **expresiones regulares**):
+- [x] `El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y otros todavía están buscando su amor`. **Cuente** el número de palabras **amor** en esta oración.
+- [x] Utilice **match()** para contar el número de todos **porque** en la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
+- [x] **Limpie** el siguiente texto y **encuentre** la palabra **más frecuente** (pista, use **replace** y **expresiones regulares**):
       const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
-- [ ] **Calcule** el **ingreso anual total** de la persona extrayendo los números del siguiente texto. "Gana 5.000 euros de salario al mes, 10.000 euros de bonificación anual y 15.000 euros de cursos en línea al mes".
+- [x] **Calcule** el **ingreso anual total** de la persona extrayendo los números del siguiente texto. "Gana 5.000 euros de salario al mes, 10.000 euros de bonificación anual y 15.000 euros de cursos en línea al mes".
