@@ -1,4 +1,4 @@
-**Día 1: Ejercicios**
+# **Día 1: Ejercicios**
 
 - [x] Escribe un comentario de una sola línea que diga "**los comentarios pueden hacer que el código sea legible**".
 - [x] Escribe otro comentario que diga, "**Bienvenido a 30DaysOfJavaScript**".
