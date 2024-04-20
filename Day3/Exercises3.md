@@ -2,13 +2,14 @@
 
 ## **Ejercicio: Nivel 1**
 
-- [ ] Declara las variables **firstName**, **lastName**, **country**, **city**, **age**, **isMarried**, **year**, asignale un valor y utiliza el operador **typeof** para verificar diferentes tipos de datos.
-- [ ] Compurebe si **typeof** **'10'** es igual a **10**.
-- [ ] Compruebe si **parseInt('9.8')** es igual a **10**.
-- [ ] El valor booleano es true o false
+- [x] Declara las variables **firstName**, **lastName**, **country**, **city**, **age**, **isMarried**, **year**, asignale un valor y utiliza el operador **typeof** para verificar diferentes tipos de datos.
+- [x] Compurebe si **typeof** **'10'** es igual a **10**.
+- [x] Compruebe si **parseInt('9.8')** es igual a **10**.
+- [x] El valor booleano es true o false
       Escriba 3 declaraciones que proporcionen un valor true.
       Escriba 3 declaraciones que proporcionen un valor false.
-- [ ] Primero, averigüe el resultado de la siguiente expresión de comparación sin usar **console.log()**. Después de decidir el resultado, confirmalo usando **console.log()**.
+
+- [x] Primero, averigüe el resultado de la siguiente expresión de comparación sin usar **console.log()**. Después de decidir el resultado, confirmalo usando **console.log()**.
       4 > 3
       4 >= 3
       4 < 3
@@ -21,7 +22,8 @@
       4 == '4'
       4 === '4'
       Encuentre la longitud de **Python** y **jargon** y haga una declaración de comparación falsa
-- [ ] Primero, averigüe el resultado de las siguientes expresiones sin usar **console.log()**. Después de decidir el resultado, confirmalo usando **console.log()**.
+
+- [x] Primero, averigüe el resultado de las siguientes expresiones sin usar **console.log()**. Después de decidir el resultado, confirmalo usando **console.log()**.
       4 > 3 && 10 < 12
       4 > 3 && 10 > 12
       4 > 3 || 10 < 12
@@ -33,14 +35,15 @@
       !(4 > 3 && 10 > 12)
       !(4 === '4')
       No hay "**on**" ni en **Dragon** ni en **Python**
-- [ ] Utiliza el objeto **Date** para realizar las siguientes actividades:
-      What is the year today?
-      What is the month today as a number?
-      What is the date today?
-      What is the day today as a number?
-      What is the hours now?
-      What is the minutes now?
-      Find out the numbers of seconds elapsed from January 1, 1970 to now.
+
+- [x] Utiliza el objeto **Date** para realizar las siguientes actividades:
+      Cuál es el año hoy?
+      Cuál es el mes hoy como número?
+      Cuál es la fecha de hoy?
+      Cuál es el día de hoy como número?
+      Cuál es el horario ahora?
+      Cuáles son los minutos ahora?
+      Descubra la cantidad de segundo transcurridos desde el 1 de Enero de 1970 hasta la fecha
 
 ---
 
