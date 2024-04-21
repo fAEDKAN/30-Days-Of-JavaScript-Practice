@@ -49,17 +49,17 @@
 
 ## **Ejercicio: Nivel 2**
 
-- [ ] Escriba un script que solicite al usuario que ingrese la base y la altura del triángulo y calcule el área (área = 0,5 x b x h).
+- [x] Escriba un script que solicite al usuario que ingrese la base y la altura del triángulo y calcule el área (área = 0,5 x b x h).
       Ingrese base: 20
       Ingrese altura: 10
       El área del triángulo es 100
-- [ ] Escriba un script que solicite al usuario que ingrese el **lado a**, el **lado b** y el **lado c** del triángulo y calcule el perímetro del triángulo (perímetro = a + b + c).
+- [x] Escriba un script que solicite al usuario que ingrese el **lado a**, el **lado b** y el **lado c** del triángulo y calcule el perímetro del triángulo (perímetro = a + b + c).
       Ingrese lado a: 5
       Ingrese lado b: 4
       Ingrese lado c: 3
       El perímetro del triángulo es 12
-- [ ] Obtene el largo y el ancho usando el prompt, y calcula el área del rectángulo (área = largo x ancho) y el perímetro del rectángulo (perímetro = 2 x (largo+ancho)).
-- [ ] Obtene el radio usando el prompt y calcula el área de un círculo (área = pi x r x r) y la circunferencia (c = 2 x pi x r) donde PI = 3,14.
+- [x] Obtene el largo y el ancho usando el prompt, y calcula el área del rectángulo (área = largo x ancho) y el perímetro del rectángulo (perímetro = 2 x (largo+ancho)).
+- [x] Obtene el radio usando el prompt y calcula el área de un círculo (área = pi x r x r) y la circunferencia (c = 2 x pi x r) donde PI = 3,14.
 - [ ] Calcula la pendiente, la intersección-x y la intersección-y de y = 2x -2.
 - [ ] La pendiente es m = (y2-y1)/(x2-x1). Encontra la pendiente entre el punto (2, 2) y el punto (6, 10).
 - [ ] Compara la pendiente de las dos preguntas anteriores.
