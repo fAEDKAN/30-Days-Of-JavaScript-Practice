@@ -17,7 +17,7 @@ if (myAge > yourAge) {
   alert(`Sos mayor que yo por ${yourAge - myAge} años`);
 }
 
-/* let a = prompt("Ingresa el valor de A");
+let a = prompt("Ingresa el valor de A");
 a = parseInt(a);
 let b = prompt("Ingresa el valor de B");
 b = parseInt(b);
@@ -26,7 +26,7 @@ if (a > b) {
 } else {
   alert(`${a} es menor que ${b}`);
 }
-a > b ? alert(`${a} es mayor que ${b}`) : alert(`${a} es menor que ${b}`); */
+a > b ? alert(`${a} es mayor que ${b}`) : alert(`${a} es menor que ${b}`);
 
 let numeroUsuario = prompt("Introduzca un número: ");
 numeroUsuario = parseInt(numeroUsuario);

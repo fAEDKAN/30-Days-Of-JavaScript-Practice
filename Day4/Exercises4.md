@@ -24,18 +24,18 @@
 
 ## **Ejercicio: Nivel 2**
 
-- [ ] Escriba un código que pueda dar calificaciones a los estudiantes según sus puntuaciones:
+- [x] Escriba un código que pueda dar calificaciones a los estudiantes según sus puntuaciones:
       80-100, A
       70-89, B
       60-69, C
       50-59, D
       0-49, F
-- [ ] Consulta si la temporada es Otoño, Invierno, Primavera o Verano. Si la entrada del usuario es:
+- [x] Consulta si la temporada es Otoño, Invierno, Primavera o Verano. Si la entrada del usuario es:
       Septiembre, octubre o noviembre, la temporada es primavera.
       Diciembre, enero o febrero, la temporada es verano.
       Marzo, abril o mayo, la temporada es otoño.
       Junio, julio o agosto, la temporada es invierno.
-- [ ] Compruebe si un día es fin de semana o día laborable. Su script tomará el día como input.
+- [x] Compruebe si un día es fin de semana o día laborable. Su script tomará el día como input.
       Qué día es hoy **?** Sábado
       El sábado es fin de semana.
       Qué día es hoy **?** sábado
@@ -49,7 +49,7 @@
 
 ## **Ejercicio: Nivel 3**
 
-- [ ] Escribe un programa que indique el número de días que tiene un mes.
+- [x] Escribe un programa que indique el número de días que tiene un mes.
       Introduzca un mes: enero
       Enero tiene 31 días.
       Introduzca un mes: ENERO
@@ -59,4 +59,4 @@
       Introduzca un mes: febrero
       Febrero tiene 28 días.
 
-- [ ] Escriba un programa que indique el número de días que tiene un mes; ahora considere el año bisiesto.
+- [x] Escriba un programa que indique el número de días que tiene un mes; ahora considere el año bisiesto.
