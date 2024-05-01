@@ -68,7 +68,7 @@ const webTechs = [
 
 ## **Ejercicio: Nivel 2**
 
-- [ ] Cree un archivo **country.js** separado y almacene el array de países en este archivo, cree un archivo web_techs.js separado y almacene el array webTechs en este archivo. Acceda a ambos archivos en el archivo main.js.
+- [x] Cree un archivo **countries.js** separado y almacene el array de países en este archivo, cree un archivo **web_techs.js** separado y almacene el array webTechs en este archivo. Acceda a ambos archivos en el archivo main.js.
 - [ ] Primero elimine todas las puntuaciones, cambie el string a un array y cuente el número de palabras en el array.
       let text =
       'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
