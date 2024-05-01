@@ -26,20 +26,34 @@ const webTechs = [
 'MongoDB'
 ]
 
-- [ ] Declara un array vacío.
-- [ ] Declara un array con más de 5 elementos.
-- [ ] Encuentra la longitud de tu array.
-- [ ] Obtenga el primer elemento, el intermedio y el último del array.
-- [ ] Declare un array llamado **mixedDataTypes**, coloque diferentes tipos de datos y encuentre la longitud del array. El tamaño del array debe ser mayor que 5.
-- [ ] Declare una variable de array con el nombre **itCompanies** y asigne valores iniciales _Facebook_, _Google_, _Microsoft_, _Apple_, _IBM_, _Oracle_ y _Amazon_
-- [ ] Imprima el array usando **console.log()**.
-- [ ] Imprima el número de empresas en el array.
-- [ ] Imprima la primera empresa, la intermedia y la última.
-- [ ] Imprima cada empresa.
-- [ ] Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
-- [ ] Imprima el array como una oración: **Facebook, Google, Microsoft, IBM, Oracle y Amazon son grandes empresas IT**.
+- [x] Declara un array vacío.
+
+- [x] Declara un array con más de 5 elementos.
+
+- [x] Encuentra la longitud de tu array.
+
+- [x] Obtenga el primer elemento, el intermedio y el último del array.
+
+- [x] Declare un array llamado **mixedDataTypes**, coloque diferentes tipos de datos y encuentre la longitud del array. El tamaño del array debe ser mayor que 5.
+
+- [x] Declare una variable de array con el nombre **itCompanies** y asigne valores iniciales _Facebook_, _Google_, _Microsoft_, _Apple_, _IBM_, _Oracle_ y _Amazon_
+
+- [x] Imprima el array usando **console.log()**.
+
+- [x] Imprima el número de empresas en el array.
+
+- [x] Imprima la primera empresa, la intermedia y la última.
+
+- [x] Imprima cada empresa.
+
+- [x] Cambie el nombre de cada empresa a mayúsculas uno por uno e imprímalos.
+
+- [x] Imprima el array como una oración: **Facebook, Google, Microsoft, IBM, Oracle y Amazon son grandes empresas IT**.
+
 - [ ] Compruebe si existe una determinada empresa en el array itCompanies. Si existe, devolver el nombre de la empresa, caso contrario devolver **no encontrada**.
+
 - [ ] Filtrar empresas que tengan más de una **'o'** sin el método **filter**.
+
 - [ ] Ordene el array usando el método **sort()**.
 - [ ] Invertir el array usando el método **reverse()**.
 - [ ] Separe las primeras 3 empresas del array.
