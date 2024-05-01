@@ -41,6 +41,38 @@ console.log(itCompanies[4].toUpperCase());
 console.log(itCompanies[5].toUpperCase());
 console.log(itCompanies[6].toUpperCase()); */
 /* console.log(`${itCompanies} son grandes empresas IT!`); */
-console.log(
-  itCompanies.includes("Google") ? "Google" : "Empresa no encontrada!"
-);
+
+/* function buscarEmpresa(empresa) {
+  if (itCompanies.includes(empresa)) {
+    return empresa;
+  } else {
+    return "Empresa no encontrada!";
+  }
+}
+console.log(buscarEmpresa("Google"));
+console.log(buscarEmpresa("Chevrolet")); */
+
+/* let companiesWithOs = [];
+for (let company of itCompanies) {
+  if (company.split("o").length > 2) {
+    companiesWithOs.push(company);
+  }
+}
+console.log(companiesWithOs); */
+
+/* console.log(itCompanies.sort());
+console.log(itCompanies.reverse()); */
+
+/* console.log(itCompanies.slice(0, 3));
+console.log(itCompanies.slice(4, 7));
+console.log(itCompanies.slice(3, 4)); */
+
+/* itCompanies.shift();
+console.log(itCompanies);
+itCompanies.pop();
+console.log(itCompanies); */
+
+/* itCompanies.splice(3, 1);
+console.log(itCompanies); */
+
+console.log(itCompanies.splice());

@@ -50,19 +50,19 @@ const webTechs = [
 
 - [x] Imprima el array como una oración: **Facebook, Google, Microsoft, IBM, Oracle y Amazon son grandes empresas IT**.
 
-- [ ] Compruebe si existe una determinada empresa en el array itCompanies. Si existe, devolver el nombre de la empresa, caso contrario devolver **no encontrada**.
+- [x] Compruebe si existe una determinada empresa en el array itCompanies. Si existe, devolver el nombre de la empresa, caso contrario devolver **no encontrada**.
 
-- [ ] Filtrar empresas que tengan más de una **'o'** sin el método **filter**.
+- [x] Filtrar empresas que tengan más de una **'o'** sin el método **filter**.
 
-- [ ] Ordene el array usando el método **sort()**.
-- [ ] Invertir el array usando el método **reverse()**.
-- [ ] Separe las primeras 3 empresas del array.
-- [ ] Separe las últimas 3 empresas del array.
-- [ ] Separe la empresa o empresas del medio del array.
-- [ ] Eliminar la primera empresa del array.
-- [ ] Eliminar la empresa o empresas IT intermedias del array.
-- [ ] Eliminar la última empresa del array.
-- [ ] Eliminar todas las empresas.
+- [x] Ordene el array usando el método **sort()**.
+- [x] Invertir el array usando el método **reverse()**.
+- [x] Separe las primeras 3 empresas del array.
+- [x] Separe las últimas 3 empresas del array.
+- [x] Separe la empresa o empresas del medio del array.
+- [x] Eliminar la primera empresa del array.
+- [x] Eliminar la última empresa del array.
+- [x] Eliminar la empresa o empresas IT intermedias del array.
+- [x] Eliminar todas las empresas.
 
 ---
 
