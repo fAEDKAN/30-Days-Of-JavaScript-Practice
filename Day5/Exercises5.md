@@ -76,11 +76,11 @@ const webTechs = [
       console.log(words.length);
       ["I", "love", "teaching", "and", "empowering", "people", "I", "teach", "HTML", "CSS", "JS", "React", "Python"]
       13
-- [ ] En el siguiente carrito de compras agregue, elimine, edite artículos.
+- [x] En el siguiente carrito de compras agregue, elimine, edite artículos.
       const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'] - Agregue "Meat" al principio del carrito si aún no se ha agregado. - Agregue "Sugar" al final del carrito si aún no se ha agregado. - Elimine "Honey" si es alérgico a la miel. - Modifique "Tea" por "Green Tea".
-- [ ] En el array de países, verifique si "Etiopía" existe; si existe, imprima "ETIOPÍA". Si no existe agréguelo a la lista de países.
-- [ ] En el array **webTechs**, verifique si **Sass** existe y, si existe, imprima **"Sass es un pre-proceso de CSS**. Si no existe, agregue **Sass** e imprima el array.
-- [ ] Concatene las dos variables siguientes y guárdelas en una variable **fullStack**.
+- [x] En el array de países, verifique si "Etiopía" existe; si existe, imprima "ETIOPÍA". Si no existe agréguelo a la lista de países.
+- [x] En el array **webTechs**, verifique si **Sass** existe y, si existe, imprima **"Sass es un pre-proceso de CSS**. Si no existe, agregue **Sass** e imprima el array.
+- [x] Concatene las dos variables siguientes y guárdelas en una variable **fullStack**.
       const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
       const backEnd = ['Node','Express', 'MongoDB']
 

@@ -1,5 +1,5 @@
-/* import countries from "./countries";
-import webTechs from "./web_techs.js"; */
+const countries = require("./countries.js");
+const webTechs = require("./web_techs.js");
 
 /* let text =
   "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
@@ -16,9 +16,33 @@ let wordCount = wordArray.length;
 console.log("Número de palabras:", wordCount);
 console.log("Array de palabras:", wordArray); */
 
-const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+/* const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
 shoppingCart.unshift("Meat");
 shoppingCart.push("Sugar");
 console.log(shoppingCart);
-shoppingCart.pop("Honey");
+shoppingCart.splice(4, 1);
 console.log(shoppingCart);
+shoppingCart.splice(3, 1, "Green Tea");
+console.log(shoppingCart); */
+
+/* let ethiopiaExist = countries;
+if (ethiopiaExist.includes("Ethiopia")) {
+  console.log("ETIOPÍA");
+} else {
+  ethiopiaExist.push("Etiopía");
+  console.log(ethiopiaExist);
+} */
+
+/* let sassExist = webTechs;
+if (sassExist.includes("Sass")) {
+  console.log("Sass es un pre-procesador de CSS");
+} else {
+  sassExist.push("Sass");
+  console.log(sassExist);
+  console.log("Sass es un pre-procesador de CSS");
+} */
+
+/* const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
+const backEnd = ["Node", "Express", "MongoDB"];
+const fullStack = frontEnd.concat(backEnd);
+console.log(fullStack); */
