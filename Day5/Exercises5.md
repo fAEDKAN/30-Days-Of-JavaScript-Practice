@@ -91,13 +91,10 @@ const webTechs = [
 
 ## **Ejercicio: Nivel 3**
 
-- [ ] Lo siguiente es un array de 10 edades de estudiantes:
+- [x] Lo siguiente es un array de 10 edades de estudiantes:
       const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-  - Ordene el array y encuentre la edad mínima y máxima.
-  - Encuentre la edad mediana (un elemento del medio o dos elementos del medio divididos por dos -promedio-).
-  - Encuentre la edad promedio (todas las edades divididas por la cantidad de edades).
-  - Encuentre el rango de edades (máximo menos mínimo).
-  - Compare el valor de (min - promedio) y (max - promedio), use el método **abs()**.
-- [ ] Corte los primeros 10 países del array de países.
-- [ ] Encuentre los países del medio.
-- [ ] Divida el array de países en dos matrices iguales si es par. Si el array no es par, un país más para la primera mitad.
+  - [x] Ordene el array y encuentre la edad mínima y máxima.
+  - [x] Encuentre la edad mediana (un elemento del medio o dos elementos del medio divididos por dos -promedio-).
+  - [x] Encuentre la edad promedio (todas las edades divididas por la cantidad de edades).
+  - [x] Encuentre el rango de edades (máximo menos mínimo).
+  - [x] Compare el valor de (min - promedio) y (max - promedio), use el método **abs()**.
