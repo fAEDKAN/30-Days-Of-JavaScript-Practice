@@ -2,21 +2,21 @@
 
 ## **Ejercicio: Nivel 1**
 
-- [x] Declara una variable **challenge** y asignale el valor inicial '**30 días de JavaScript**'.
+- [x] Declará una variable **challenge** y asignale el valor inicial '**30 días de JavaScript**'.
 
 - [x] Imprimí el string en la consola usando **console.log()**.
 
 - [x] Imprimí **la longitud** del string en la consola.
 
-- [x] Cambia todos los caracteres **a letras mayúsculas** usando el método **.toUpperCase()**.
+- [x] Cambiá todos los caracteres **a letras mayúsculas** usando el método **.toUpperCase()**.
 
-- [x] Cambia todos los caracteres **a letras minúsculas** usando el método **.toLowerCase()**.
+- [x] Cambiá todos los caracteres **a letras minúsculas** usando el método **.toLowerCase()**.
 
-- [x] **Corta** la primera palabra del string usando el método **.substr()** o **.substring()**.
+- [x] **Cortá** la primera palabra del string usando el método **.substr()** o **.substring()**.
 
-- [x] **Corta** la frase **Días de JavaScript** de **30 Días de Javascript**.
+- [x] **Cortá** la frase **Días de JavaScript** de **30 Días de Javascript**.
 
-- [x] Verifica si el string **incluye** la palabra **Script** usando el método **.includes()**.
+- [x] Verificá si el string **incluye** la palabra **Script** usando el método **.includes()**.
 
 - [x] **Dividí** el string en un array usando el método **.split()**.
 
@@ -24,33 +24,33 @@
 
 - [x] "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" **dividí** el string con coma y cambialo a un **array**.
 
-- [x] **Reemplaza** "_30 días de JavaScript_" por "_30 días de Python_" usando el método **.replace()**.
+- [x] **Reemplazá** "_30 días de JavaScript_" por "_30 días de Python_" usando el método **.replace()**.
 
 - [x] ¿Cuál es el carácter en el **índice 15** en el string "_30 días de JavaScript_"? Utiliza el método **.charAt()**.
 
 - [x] ¿Cuál es el **código de carácter** de **J** en la cadena "_30 días de JavaScript_" usando **.charCodeAt()**?
 
-- [x] Usa **.indexOf()** para determinar la posición de la primera aparición de **a** en "_30 días de JavaScript_".
+- [x] Usá **.indexOf()** para determinar la posición de la primera aparición de **a** en "_30 días de JavaScript_".
 
-- [x] Usa **.lastIndexOf()** para determinar la posición de la **última** aparición de **a** en 30 días de JavaScript.
+- [x] Usá **.lastIndexOf()** para determinar la posición de la **última** aparición de **a** en 30 días de JavaScript.
 
-- [x] Usa **.indexOf()** para encontrar la posición de la **primera** aparición de la palabra **porque** en la siguiente oración:'**No puedes terminar una oración con porque porque porque es una conjunción**'.
+- [x] Usá **.indexOf()** para encontrar la posición de la **primera** aparición de la palabra **porque** en la siguiente oración:'**No puedes terminar una oración con porque porque porque es una conjunción**'.
 
-- [x] Usa **.lastIndexOf()** para encontrar la posición de la última aparición de la palabra **porque** en la siguiente oración:'**No puedes terminar una oración con porque porque porque es una conjunción**'.
+- [x] Usá **.lastIndexOf()** para encontrar la posición de la última aparición de la palabra **porque** en la siguiente oración:'**No puedes terminar una oración con porque porque porque es una conjunción**'.
 
-- [x] Usa **.search()** para encontrar la posición de la **primera** aparición de la palabra **porque** en la siguiente oración:'**No puedes terminar una oración con porque porque porque es una conjunción**'.
+- [x] Usá **.search()** para encontrar la posición de la **primera** aparición de la palabra **porque** en la siguiente oración:'**No puedes terminar una oración con porque porque porque es una conjunción**'.
 
-- [x] Usa **.trim()** para **eliminar** cualquier espacio en blanco al principio o al final del string. Por ejemplo, '_30 días de JavaScript_'.
+- [x] Usá **.trim()** para **eliminar** cualquier espacio en blanco al principio o al final del string. Por ejemplo, '_30 días de JavaScript_'.
 
-- [x] Usa el método **.startsWith()** con el string "_30 días de JavaScript_" y hace que el resultado sea **verdadero**.
+- [x] Usá el método **.startsWith()** con el string "_30 días de JavaScript_" y hace que el resultado sea **verdadero**.
 
-- [x] Usa el método **.endsWith()** con el string "_30 días de JavaScript_" y hace que el resultado sea **verdadero**.
+- [x] Usá el método **.endsWith()** con el string "_30 días de JavaScript_" y hace que el resultado sea **verdadero**.
 
-- [x] Usa el método **.match()** para encontrar todas las **a** en "_30 días de JavaScript_".
+- [x] Usá el método **.match()** para encontrar todas las **a** en "_30 días de JavaScript_".
 
-- [x] Usa **.concat()** y fusiona '_30 Días de_' y '_JavaScript_' en un solo string, '_30 días de JavaScript_'.
+- [x] Usá **.concat()** y fusioná '_30 Días de_' y '_JavaScript_' en un solo string, '_30 días de JavaScript_'.
 
-- [x] Usa el método **.repeat()** para imprimir _30 días de JavaScript_ **2 veces**.
+- [x] Usá el método **.repeat()** para imprimir _30 días de JavaScript_ **2 veces**.
 
 ---
 
@@ -58,6 +58,7 @@
 
 - [x] Usando **console.log()** imprimí la siguiente declaración:
       `The quote: 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.`
+
 - [x] Usando **console.log()** imprimí la siguiente cita de la Madre Teresa:
       `"Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."`
 
