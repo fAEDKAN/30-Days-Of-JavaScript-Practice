@@ -15,7 +15,7 @@ console.log(
   typeof year
 );
 
-console.log(typeof "10" == 10); // false
+console.log(typeof "10" == typeof 10); // false
 
 console.log(parseInt("9.8") == 10); // false
 
