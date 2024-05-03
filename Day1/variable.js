@@ -7,3 +7,10 @@ console.log(estoEsUnString);
 console.log(estoEsUnBooleano);
 console.log(estoEsUndefined);
 console.log(estoEsNull);
+
+module.exports = {
+  estoEsUnString,
+  estoEsUnBooleano,
+  estoEsUndefined,
+  estoEsNull,
+};
