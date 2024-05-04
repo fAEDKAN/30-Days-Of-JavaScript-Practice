@@ -30,9 +30,9 @@ const webTechs = [
 const mernStack = ["MongoDB", "Express", "React", "Node"];
 ```
 
-- [ ] Iterá de 0 a 10 usando el bucle **for**, hacé lo mismo usando los bucles **while** y **do while**.
+- [x] Iterá de 0 a 10 usando el bucle **for**, hacé lo mismo usando los bucles **while** y **do while**.
 
-- [ ] Iterá 10 to 0 usando el bucle **for**, hacé lo mismo usando los bucles **while** y **do while**.
+- [x] Iterá de 10 a 0 usando el bucle **for**, hacé lo mismo usando los bucles **while** y **do while**.
 
 - [ ] Iterá de 0 a n usando el bucle **for**.
 
