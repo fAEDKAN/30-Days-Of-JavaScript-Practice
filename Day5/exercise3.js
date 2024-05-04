@@ -1,7 +1,7 @@
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 
 // Edad mediana
-const sortedAges = ages.sort((a, b) => a - b);
+const sortedAges = ages.toSorted((a, b) => a - b);
 const medianAge = sortedAges[Math.floor(ages.length / 2)];
 
 // Edad promedio
