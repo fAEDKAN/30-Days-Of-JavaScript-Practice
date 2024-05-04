@@ -30,13 +30,13 @@ const webTechs = [
 const mernStack = ["MongoDB", "Express", "React", "Node"];
 ```
 
-- [ ] Itera de 0 a 10 usando el bucle for, haga lo mismo usando los bucles while y do while
+- [ ] Iterá de 0 a 10 usando el bucle **for**, hacé lo mismo usando los bucles **while** y **do while**.
 
-- [ ] Itera 10 to 0 usando el bucle for, haga lo mismo usando los bucles while y do while
+- [ ] Iterá 10 to 0 usando el bucle **for**, hacé lo mismo usando los bucles **while** y **do while**.
 
-- [ ] Itera de 0 a n usando el bucle for
+- [ ] Iterá de 0 a n usando el bucle **for**.
 
-- [ ] Escribe un bucle que haga el siguiente patrón usando console.log():
+- [ ] Escribí un bucle que haga el siguiente patrón usando **console.log()**:
 
 ```javascript
 #
@@ -48,7 +48,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 #######
 ```
 
-- [ ] Usa un bucle para imprimir el siguiente patrón:
+- [ ] Usá un bucle para imprimir el siguiente patrón:
 
 ```javascript
 0 x 0 = 0
@@ -64,7 +64,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 10 x 10 = 100
 ```
 
-- [ ] Usando un bucle imprime el siguiente patrón:
+- [ ] Usando un bucle imprimí el siguiente patrón:
 
 ```javascript
  i    i^2   i^3
@@ -81,67 +81,64 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
  10   100   1000
 ```
 
-- [ ] Usa el bucle for para iterar de 0 a 100 e imprima solo números pares.
+- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí sólo números **pares**.
 
-- [ ] Usa el bucle for para iterar de 0 a 100 e imprima solo números impares
+- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí sólo números **impares**.
 
-- [ ] Usa el bucle for para iterar de 0 a 100 e imprima los solo números primos
+- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí los sólo números **primos**.
 
-- [ ] Usa el bucle for para iterar de 0 a 100 e imprima la suma de todos los números.
+- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí la **suma** de **todos** los números.
 
 ```javascript
 La suma de todos los números de 0 a 100 es 5050.
 ```
 
-- [ ] Usa el bucle para iterar de 0 a 100 e imprimir la suma de todos los pares y la suma de todos los impares.
+- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimir la **suma** de todos los **pares** e **impares**.
 
 ```javascript
 La suma de todos los pares de 0 a 100 es 2550. Y la suma de todos los impares de 0 a 100 es 2500.
 ```
 
-- [ ] Usa el bucle para iterar de 0 a 100 e imprimir la suma de todos los pares y la suma de todos los impares. Imprimir suma de pares y suma de impares como un array
+- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimir la **suma** de todos los **pares** e **impares**. Imprimí la **suma** de **pares** e **impares** como un array.
 
 ```javascript
 [2550, 2500];
 ```
 
-- [ ] Desarrolla un pequeño script que genera una matriz de 5 números aleatorios
+- [ ] Desarrollá un pequeño script que genere un array de 5 números aleatorios.
 
-- [ ] Desarrolla un pequeño script que genera una matriz de 5 números aleatorios. Los números debe ser únicos
+- [ ] Desarrollá un pequeño script que genere un array de 5 números aleatorios y que los números sean únicos.
 
-- [ ] Desarrolla un pequeño script que genera un id aleatorio de seis caracteres:
-
-- [ ] Desarrolla un pequeño script que genera un id aleatorio de seis caracteres:
+- [ ] Desarrollá un pequeño script que genere un id aleatorio de seis caracteres.
 
 ```javascript
 5j2khz
 ```
 
+---
+
 ## **Ejercicio: Nivel 2**
 
-- [ ] Desarrolla un pequeño script que genera un id con cualquier número de caracteres aleatorios:
+- [ ] Desarrollá un pequeño script que genere un id con cualquier número de caracteres aleatorios.
 
 ```javascript
 fe3jo1gl124g;
-```
-
-```javascript
 xkqci4utda1lmbelpkm03rba;
 ```
 
-- [ ] Escribe un script que genere un número hexadecimal aleatorio.
+- [ ] Escribí un script que genere un número **hexadecimal** aleatorio.
 
 ```javascript
 "#ee33df";
 ```
 
-- [ ] Escribe un script que genere un número de color rgb aleatorio.
+- [ ] Escribí un script que genere un número de color **rgb** aleatorio.
 
 ```javascript
 rgb(240, 180, 80);
 ```
 
-- [ ] Usando el array countries anterior, crea un array como el siguiente.
+- [ ] Usando el array **countries** anterior, creá un array como el siguiente:
 
 ```javascript
 [
@@ -159,13 +156,13 @@ rgb(240, 180, 80);
 ];
 ```
 
-- [ ] Usando el array countries anterior, crea un array para saber la longitud de cada país.
+- [ ] Usando el array **countries** anterior, creá un array para saber la longitud de cada país:
 
 ```javascript
 [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5];
 ```
 
-- [ ] Utiliza el array countries para crear la siguiente array de arrays
+- [ ] Utilizá el array **countries** para crear el siguiente array de arrays:
 
 ```javascript
 [
@@ -184,33 +181,33 @@ rgb(240, 180, 80);
 ];
 ```
 
-- [ ] En el array countries anterior, verifica si hay un país que contenga la palabra 'land'. Si hay países que contienen 'land', imprimelo cono array. Si no hay ningún país que contenga la palabra'land', imprima 'Todos estos países no tienen la palabra land'.
+- [ ] En el array **countries**, verificá si hay algún país que contenga la palabra '**land**'. Si hay países que contienen '**land**', imprimilos como array. Si no hay ninguno, imprimí: `Ninguno de estos países contiene "land"`.
 
 ```javascript
 ["Finland", "Ireland", "Iceland"];
 ```
 
-- [ ] En el array countries anterior, verifica si hay un país que termina con una subcadena (substring) 'ia'. Si hay países que terminan con 'ia', imprimelo como un array. Si no hay ningún país que contenga la palabra 'ia', imprime 'Estos países no terminan con ia'.
+- [ ] En el array **countries**, verificá si hay algún país que termine con '**ia**'. Si hay países que terminan con '**ia**', imprimilos como un array. Si no hay ninguno, imprimí `"Estos países no terminan con ia"`.
 
 ```javascript
 ["Albania", "Bolivia", "Ethiopia"];
 ```
 
-- [ ] Usando el array countries anterior, encuentre el país que contiene la mayor cantidad de caracteres.
+- [ ] Usando el array **countries**, encontrá el país que contiene la mayor cantidad de caracteres.
 
 ```javascript
 Ethiopia;
 ```
 
-- [ ] Usando el array countries anterior, encuentre el país que contiene sólo 5 caracteres.
+- [ ] Usando el array **countries**, encontrá el país que contiene sólo 5 caracteres.
 
 ```javascript
 ["Japan", "Kenya"];
 ```
 
-- [ ] Encuentra la palabra más larga en el array webTechs
+- [ ] Encontrá la palabra más larga en el array **webTechs**.
 
-- [ ] Utiliza el array de webTechs para crear la el siguiente array de arrays:
+- [ ] Utilizá el array **webTechs** para crear el siguiente array de arrays:
 
 ```javascript
 [
@@ -224,22 +221,20 @@ Ethiopia;
 ];
 ```
 
-- [ ] Una aplicación creada con MongoDB, Express, React y Node se denomina MERN stack app. Crea el acrónimo MERN usando el array mernStack
+- [ ] Una aplicación creada con MongoDB, Express, React y Node se denomina _MERN stack app_. Crea el acrónimo **MERN** usando el array **mernStack**.
 
-- [ ] Iterar a través del array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] usando el bucle for o el bucle for of e imprime los elementos.
+- [ ] Iterá a través del array: `["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]` usando el bucle **for** o el bucle **for of** e imprimí los elementos.
 
-- [ ] Este es un array de frutas, ['banana', 'orange', 'mango', 'lemon'] invierte el orden usando un bucle sin usar el método reverse().
+- [ ] Este es un array de frutas: `['banana', 'orange', 'mango', 'lemon']`, invertí el orden usando un bucle sin usar el método **.reverse()**.
 
-- [ ] Imprime todos los elementos del array como se muestra a continuación:
+- [ ] Imprimí todos los elementos del array como se muestra a continuación:
 
 ```javascript
 const fullStack = [
   ["HTML", "CSS", "JS", "React"],
   ["Node", "Express", "MongoDB"],
 ];
-```
 
-```javascript
 HTML;
 CSS;
 JS;
@@ -249,22 +244,24 @@ EXPRESS;
 MONGODB;
 ```
 
+---
+
 ## **Ejercicio: Nivel 3**
 
-- [ ] Copia el array countries (Evita mutaciones).
+- [ ] Copiá el array **countries** (evitá mutaciones).
 
-- [ ] Los arrays son mutables. Crea una copia del array que no modifique el original. Ordena la copia del array y guárdala en una variable sortedCountries.
+- [ ] Los arrays son mutables. Creá una copia del array que no modifique el original. Ordená la copia y guardala en una variable **sortedCountries**.
 
-- [ ] Ordena el array webTechs y el array mernStack
+- [ ] Ordená el array **webTechs** y el array **mernStack**.
 
-- [ ] Extrae todos los países que contengan la palabra 'land' del array countries e imprímela como un array.
+- [ ] Extraé todos los países que contengan la palabra "**land**" del array **countries** e imprimilos como un array.
 
-- [ ] Encuentra el país que contiene la mayor cantidad de caracteres en el array countries.
+- [ ] Encontrá el país que contiene la mayor cantidad de caracteres en el array **countries**.
 
-- [ ] Extrae todos los países que contienen la palabra 'land' del array countries e imprímela como un array.
+- [ ] Extraé todos los países que contienen la palabra "**land**" del array **countries** e imprimilos como un array.
 
-- [ ] Extrae todos los países que contengan solo cuatro caracteres del array countries e imprímela como un array.
+- [ ] Extraé todos los países que contengan sólo cuatro caracteres del array **countries** e imprimilos como un array.
 
-- [ ] Extrae todos los países que contengan dos o más palabras del array countries e imprímela como un array.
+- [ ] Extraé todos los países que contengan dos o más palabras del array **countries** e imprimilos como un array.
 
-- [ ] Invertir el array countries y poner en mayúscula cada país y almacenalo en un array.
+- [ ] Invertí el array **countries**, poné en mayúscula cada país y almacenalos en un array.
