@@ -34,9 +34,9 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 
 - [x] Iterá de 10 a 0 usando el bucle **for**, hacé lo mismo usando los bucles **while** y **do while**.
 
-- [ ] Iterá de 0 a n usando el bucle **for**.
+- [x] Iterá de 0 a n usando el bucle **for**.
 
-- [ ] Escribí un bucle que haga el siguiente patrón usando **console.log()**:
+- [x] Escribí un bucle que haga el siguiente patrón usando **console.log()**:
 
 ```javascript
 #
@@ -48,7 +48,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 #######
 ```
 
-- [ ] Usá un bucle para imprimir el siguiente patrón:
+- [x] Usá un bucle para imprimir el siguiente patrón:
 
 ```javascript
 0 x 0 = 0
@@ -64,7 +64,7 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 10 x 10 = 100
 ```
 
-- [ ] Usando un bucle imprimí el siguiente patrón:
+- [x] Usando un bucle imprimí el siguiente patrón:
 
 ```javascript
  i    i^2   i^3
@@ -81,11 +81,11 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
  10   100   1000
 ```
 
-- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí sólo números **pares**.
+- [x] Usá el bucle **for** para iterar de 0 a 100 e imprimí sólo números **pares**.
 
-- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí sólo números **impares**.
+- [x] Usá el bucle **for** para iterar de 0 a 100 e imprimí sólo números **impares**.
 
-- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí los sólo números **primos**.
+- [x] Usá el bucle **for** para iterar de 0 a 100 e imprimí los sólo números **primos**.
 
 - [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí la **suma** de **todos** los números.
 
