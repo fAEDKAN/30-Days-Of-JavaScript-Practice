@@ -62,7 +62,69 @@ do {
 /* for (let i = 2; i <= 100; i++) {
   let esPrimo = true;
   for (let j = 2; j < i; j++) {
-    if (i % j === 0) esPrimo = false;
+    if (i % j === 0) {
+      esPrimo = false;
+      break;
+    }
   }
-  if (esPrimo) console.log(i);
+  if (esPrimo) {
+    console.log(i);
+  }
 } */
+
+/* let suma = 0;
+for (let i = 0; i <= 100; i++) {
+  suma += i;
+}
+console.log(`La suma de todos los números de 0 a 100 es ${suma}.`); */
+
+/* let sumaPar = 0;
+let sumaImpar = 0;
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    sumaPar += i;
+  } else {
+    sumaImpar += i;
+  }
+}
+console.log(
+  `La suma de todos los números pares es ${sumaPar} \n La suma de todos los números impares es ${sumaImpar}`
+); */
+
+/* let sumaPar = 0;
+let sumaImpar = 0;
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 === 0) {
+    sumaPar += i;
+  } else {
+    sumaImpar += i;
+  }
+}
+let arraySumas = [sumaPar, sumaImpar];
+console.log(arraySumas);
+ */
+
+/* let randomNumbers = [];
+for (let i = 0; i < 5; i++) {
+  randomNumbers.push(Math.floor(Math.random() * 100) + 1);
+}
+console.log(randomNumbers); */
+
+/* let randomNumbers = [];
+while (randomNumbers.length < 5) {
+  let randomNumber = Math.floor(Math.random() * 100) + 1;
+  if (!randomNumbers.includes(randomNumber)) {
+    randomNumbers.push(randomNumber);
+  }
+}
+console.log(randomNumbers); */
+
+/* function generarIdAleatorio() {
+  let id = "";
+  for (let i = 0; i < 6; i++) {
+    id += Math.floor(Math.random() * 10);
+  }
+  return id;
+}
+let idAleatorio = generarIdAleatorio();
+console.log("ID aleatorio:", idAleatorio); */

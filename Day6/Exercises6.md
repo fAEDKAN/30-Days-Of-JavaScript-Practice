@@ -87,29 +87,29 @@ const mernStack = ["MongoDB", "Express", "React", "Node"];
 
 - [x] Usá el bucle **for** para iterar de 0 a 100 e imprimí los sólo números **primos**.
 
-- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimí la **suma** de **todos** los números.
+- [x] Usá el bucle **for** para iterar de 0 a 100 e imprimí la **suma** de **todos** los números.
 
 ```javascript
 La suma de todos los números de 0 a 100 es 5050.
 ```
 
-- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimir la **suma** de todos los **pares** e **impares**.
+- [x] Usá el bucle **for** para iterar de 0 a 100 e imprimir la **suma** de todos los **pares** e **impares**.
 
 ```javascript
 La suma de todos los pares de 0 a 100 es 2550. Y la suma de todos los impares de 0 a 100 es 2500.
 ```
 
-- [ ] Usá el bucle **for** para iterar de 0 a 100 e imprimir la **suma** de todos los **pares** e **impares**. Imprimí la **suma** de **pares** e **impares** como un array.
+- [x] Usá el bucle **for** para iterar de 0 a 100 e imprimir la **suma** de todos los **pares** e **impares**. Imprimí la **suma** de **pares** e **impares** como un array.
 
 ```javascript
 [2550, 2500];
 ```
 
-- [ ] Desarrollá un pequeño script que genere un array de 5 números aleatorios.
+- [x] Desarrollá un pequeño script que genere un array de 5 números aleatorios.
 
-- [ ] Desarrollá un pequeño script que genere un array de 5 números aleatorios y que los números sean únicos.
+- [x] Desarrollá un pequeño script que genere un array de 5 números aleatorios y que los números sean únicos.
 
-- [ ] Desarrollá un pequeño script que genere un id aleatorio de seis caracteres.
+- [x] Desarrollá un pequeño script que genere un id aleatorio de seis caracteres.
 
 ```javascript
 5j2khz
