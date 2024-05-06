@@ -128,3 +128,14 @@ console.log(randomNumbers); */
 }
 let idAleatorio = generarIdAleatorio();
 console.log("ID aleatorio:", idAleatorio); */
+
+function generateRandomId() {
+  let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let id = "";
+  for (let i = 0; i < 20; i++) {
+    id += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return id;
+}
+let randomId = generateRandomId();
+console.log(`ID aleatorio: ${randomId}`);

@@ -119,7 +119,7 @@ La suma de todos los pares de 0 a 100 es 2550. Y la suma de todos los impares de
 
 ## **Ejercicio: Nivel 2**
 
-- [ ] Desarrollá un pequeño script que genere un id con cualquier número de caracteres aleatorios.
+- [x] Desarrollá un pequeño script que genere un id con cualquier número de caracteres aleatorios.
 
 ```javascript
 fe3jo1gl124g;
