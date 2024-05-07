@@ -129,7 +129,7 @@ console.log(randomNumbers); */
 let idAleatorio = generarIdAleatorio();
 console.log("ID aleatorio:", idAleatorio); */
 
-function generateRandomId() {
+/* function generateRandomId() {
   let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   let id = "";
   for (let i = 0; i < 20; i++) {
@@ -138,4 +138,28 @@ function generateRandomId() {
   return id;
 }
 let randomId = generateRandomId();
-console.log(`ID aleatorio: ${randomId}`);
+console.log(`ID aleatorio: ${randomId}`); */
+
+/* function generateHex() {
+  let chars = "abcdef0123456789";
+  let hex = "";
+  for (let i = 0; i < 6; i++) {
+    hex += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return hex;
+}
+let randomHex = generateHex();
+console.log(`Hexadecimal aleatorio generado: #${randomHex}`); */
+
+function generateRgb() {
+  let chars = "0123456789";
+  let rgb1 = "";
+  for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 255; j++) {
+      
+    }
+  }
+  return rgb1;
+}
+let randomRgb = generateRgb();
+console.log(`Color RGB aleatorio generado: rgb(${randomRgb})`);

@@ -126,7 +126,7 @@ fe3jo1gl124g;
 xkqci4utda1lmbelpkm03rba;
 ```
 
-- [ ] Escribí un script que genere un número **hexadecimal** aleatorio.
+- [x] Escribí un script que genere un número **hexadecimal** aleatorio.
 
 ```javascript
 "#ee33df";
