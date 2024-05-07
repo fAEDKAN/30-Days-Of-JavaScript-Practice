@@ -151,15 +151,12 @@ console.log(`ID aleatorio: ${randomId}`); */
 let randomHex = generateHex();
 console.log(`Hexadecimal aleatorio generado: #${randomHex}`); */
 
-function generateRgb() {
-  let chars = "0123456789";
-  let rgb1 = "";
+/* function generateRgbColor() {
+  let rgb = [];
   for (let i = 0; i < 3; i++) {
-    for (let j = 0; j < 255; j++) {
-      
-    }
+    rgb.push(Math.floor(Math.random() * 256));
   }
-  return rgb1;
+  return `rgb(${rgb.join(", ")})`;
 }
-let randomRgb = generateRgb();
-console.log(`Color RGB aleatorio generado: rgb(${randomRgb})`);
+let rgbColor = generateRgbColor();
+console.log(rgbColor); */

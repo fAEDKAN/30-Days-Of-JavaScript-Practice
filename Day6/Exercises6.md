@@ -132,7 +132,7 @@ xkqci4utda1lmbelpkm03rba;
 "#ee33df";
 ```
 
-- [ ] Escribí un script que genere un número de color **rgb** aleatorio.
+- [x] Escribí un script que genere un número de color **rgb** aleatorio.
 
 ```javascript
 rgb(240, 180, 80);
