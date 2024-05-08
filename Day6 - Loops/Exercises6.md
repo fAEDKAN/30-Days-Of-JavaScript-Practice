@@ -248,20 +248,18 @@ MONGODB;
 
 ## **Ejercicio: Nivel 3**
 
-- [ ] Copiá el array **countries** (evitá mutaciones).
+- [x] Copiá el array **countries** (evitá mutaciones).
 
-- [ ] Los arrays son mutables. Creá una copia del array que no modifique el original. Ordená la copia y guardala en una variable **sortedCountries**.
+- [x] Los arrays son mutables. Creá una copia del array que no modifique el original. Ordená la copia y guardala en una variable **sortedCountries**.
 
-- [ ] Ordená el array **webTechs** y el array **mernStack**.
+- [x] Ordená el array **webTechs** y el array **mernStack**.
 
-- [ ] Extraé todos los países que contengan la palabra "**land**" del array **countries** e imprimilos como un array.
+- [x] Extraé todos los países que contengan la palabra "**land**" del array **countries** e imprimilos como un array.
 
-- [ ] Encontrá el país que contiene la mayor cantidad de caracteres en el array **countries**.
+- [x] Encontrá el país que contiene la mayor cantidad de caracteres en el array **countries**.
 
-- [ ] Extraé todos los países que contienen la palabra "**land**" del array **countries** e imprimilos como un array.
+- [x] Extraé todos los países que contengan sólo cuatro caracteres del array **countries** e imprimilos como un array.
 
-- [ ] Extraé todos los países que contengan sólo cuatro caracteres del array **countries** e imprimilos como un array.
+- [x] Extraé todos los países que contengan dos o más palabras del array **countries** e imprimilos como un array.
 
-- [ ] Extraé todos los países que contengan dos o más palabras del array **countries** e imprimilos como un array.
-
-- [ ] Invertí el array **countries**, poné en mayúscula cada país y almacenalos en un array.
+- [x] Invertí el array **countries**, poné en mayúscula cada país y almacenalos en un array.
