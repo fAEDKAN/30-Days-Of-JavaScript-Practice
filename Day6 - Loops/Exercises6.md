@@ -138,7 +138,7 @@ xkqci4utda1lmbelpkm03rba;
 rgb(240, 180, 80);
 ```
 
-- [ ] Usando el array **countries** anterior, creá un array como el siguiente:
+- [x] Usando el array **countries** anterior, creá un array como el siguiente:
 
 ```javascript
 [
@@ -156,13 +156,13 @@ rgb(240, 180, 80);
 ];
 ```
 
-- [ ] Usando el array **countries** anterior, creá un array para saber la longitud de cada país:
+- [x] Usando el array **countries** anterior, creá un array para saber la longitud de cada país:
 
 ```javascript
 [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5];
 ```
 
-- [ ] Utilizá el array **countries** para crear el siguiente array de arrays:
+- [x] Utilizá el array **countries** para crear el siguiente array de arrays:
 
 ```javascript
 [
@@ -181,33 +181,33 @@ rgb(240, 180, 80);
 ];
 ```
 
-- [ ] En el array **countries**, verificá si hay algún país que contenga la palabra '**land**'. Si hay países que contienen '**land**', imprimilos como array. Si no hay ninguno, imprimí: `Ninguno de estos países contiene "land"`.
+- [x] En el array **countries**, verificá si hay algún país que contenga la palabra '**land**'. Si hay países que contienen '**land**', imprimilos como array. Si no hay ninguno, imprimí: `Ninguno de estos países contiene "land"`.
 
 ```javascript
 ["Finland", "Ireland", "Iceland"];
 ```
 
-- [ ] En el array **countries**, verificá si hay algún país que termine con '**ia**'. Si hay países que terminan con '**ia**', imprimilos como un array. Si no hay ninguno, imprimí `"Estos países no terminan con ia"`.
+- [x] En el array **countries**, verificá si hay algún país que termine con '**ia**'. Si hay países que terminan con '**ia**', imprimilos como un array. Si no hay ninguno, imprimí `"Estos países no terminan con ia"`.
 
 ```javascript
 ["Albania", "Bolivia", "Ethiopia"];
 ```
 
-- [ ] Usando el array **countries**, encontrá el país que contiene la mayor cantidad de caracteres.
+- [x] Usando el array **countries**, encontrá el país que contiene la mayor cantidad de caracteres.
 
 ```javascript
 Ethiopia;
 ```
 
-- [ ] Usando el array **countries**, encontrá el país que contiene sólo 5 caracteres.
+- [x] Usando el array **countries**, encontrá el país que contiene sólo 5 caracteres.
 
 ```javascript
 ["Japan", "Kenya"];
 ```
 
-- [ ] Encontrá la palabra más larga en el array **webTechs**.
+- [x] Encontrá la palabra más larga en el array **webTechs**.
 
-- [ ] Utilizá el array **webTechs** para crear el siguiente array de arrays:
+- [x] Utilizá el array **webTechs** para crear el siguiente array de arrays:
 
 ```javascript
 [
@@ -221,13 +221,13 @@ Ethiopia;
 ];
 ```
 
-- [ ] Una aplicación creada con MongoDB, Express, React y Node se denomina _MERN stack app_. Crea el acrónimo **MERN** usando el array **mernStack**.
+- [x] Una aplicación creada con MongoDB, Express, React y Node se denomina _MERN stack app_. Crea el acrónimo **MERN** usando el array **mernStack**.
 
-- [ ] Iterá a través del array: `["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]` usando el bucle **for** o el bucle **for of** e imprimí los elementos.
+- [x] Iterá a través del array: `["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]` usando el bucle **for** o el bucle **for of** e imprimí los elementos.
 
-- [ ] Este es un array de frutas: `['banana', 'orange', 'mango', 'lemon']`, invertí el orden usando un bucle sin usar el método **.reverse()**.
+- [x] Este es un array de frutas: `['banana', 'orange', 'mango', 'lemon']`, invertí el orden usando un bucle sin usar el método **.reverse()**.
 
-- [ ] Imprimí todos los elementos del array como se muestra a continuación:
+- [x] Imprimí todos los elementos del array como se muestra a continuación:
 
 ```javascript
 const fullStack = [
