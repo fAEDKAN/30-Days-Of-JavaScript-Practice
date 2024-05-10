@@ -2,23 +2,23 @@
 
 ## **Ejercicio: Nivel 1**
 
-- [ ] Declará una función **fullName** e imprimí tu nombre completo.
+- [x] Declará una función **fullName** e imprimí tu nombre completo.
 
-- [ ] Declará una función **fullName** que tome como parámetro **firstName** y **lastName** y que retorne tu nombre completo.
+- [x] Declará una función **fullName** que tome como parámetro **firstName** y **lastName** y que retorne tu nombre completo.
 
-- [ ] Declará una función **addNumbers** que tome 2 parámetros y devuelva la suma.
+- [x] Declará una función **addNumbers** que tome 2 parámetros y devuelva la suma.
 
-- [ ] El área de un rectángulo se calcula: _area = largo x ancho_. Escribí una función **areaOfRectangle** que calcule el área de un rectángulo.
+- [x] El área de un rectángulo se calcula: _area = largo x ancho_. Escribí una función **areaOfRectangle** que calcule el área de un rectángulo.
 
-- [ ] El perímetro de un rectángulo se calcula: _perímetro = 2x(largo + ancho)_. Escribí una función **perimeterOfRectangle** que calcule el perímetro de un rectángulo.
+- [x] El perímetro de un rectángulo se calcula: _perímetro = 2x(largo + ancho)_. Escribí una función **perimeterOfRectangle** que calcule el perímetro de un rectángulo.
 
-- [ ] El volumen de un prisma rectangular se calcula: _volumen = largo x ancho x alto_. Escribí una función **volumeOfRectPrism** que calcule el volumen de un prisma.
+- [x] El volumen de un prisma rectangular se calcula: _volumen = largo x ancho x alto_. Escribí una función **volumeOfRectPrism** que calcule el volumen de un prisma.
 
-- [ ] El área de un círculo se calcula: _area = π x r x r_. Escribí una función **areaOfCircle** que calcule el área de un círculo.
+- [x] El área de un círculo se calcula: _area = π x r x r_. Escribí una función **areaOfCircle** que calcule el área de un círculo.
 
-- [ ] La circunferencia de un círculo se calcula: _circunferencia = 2πr_. Escribí una función **circumOfCircle** que calcule la circunferencia de un círculo.
+- [x] La circunferencia de un círculo se calcula: _circunferencia = 2πr_. Escribí una función **circumOfCircle** que calcule la circunferencia de un círculo.
 
-- [ ] La densidad de una sustancia se calcula: _densidad = masa/volumen_. Escribí una función **density** que calcule la densidad de una sustancia.
+- [x] La densidad de una sustancia se calcula: _densidad = masa/volumen_. Escribí una función **density** que calcule la densidad de una sustancia.
 
 - [ ] La velocidad se calcula dividiendo el total de la distancia recorrida por un objeto en movimiento entre el tiempo total. Escribí una función **speed** que calcule la velocidad de un objeto en movimiento.
 
