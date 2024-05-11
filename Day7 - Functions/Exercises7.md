@@ -20,13 +20,13 @@
 
 - [x] La densidad de una sustancia se calcula: _densidad = masa/volumen_. Escribí una función **density** que calcule la densidad de una sustancia.
 
-- [ ] La velocidad se calcula dividiendo el total de la distancia recorrida por un objeto en movimiento entre el tiempo total. Escribí una función **speed** que calcule la velocidad de un objeto en movimiento.
+- [x] La velocidad se calcula dividiendo el total de la distancia recorrida por un objeto en movimiento entre el tiempo total. Escribí una función **speed** que calcule la velocidad de un objeto en movimiento.
 
-- [ ] El peso de una sustancia se calcula: _peso = masa x gravedad_. Escribí una función **peso** que calcule el peso de una sustancia.
+- [x] El peso de una sustancia se calcula: _peso = masa x gravedad_. Escribí una función **weight** que calcule el peso de una sustancia.
 
-- [ ] La temperatura en °C se puede convertir a °F usando esta fórmula: _°F = (°C x 9/5) + 32_. Escribí una función **convertCelsiusToFahrenheit** que convierta °C a °F.
+- [x] La temperatura en °C se puede convertir a °F usando esta fórmula: _°F = (°C x 9/5) + 32_. Escribí una función **convertCelsiusToFahrenheit** que convierta °C a °F.
 
-- [ ] El índice de masa corporal (IMC) se calcula: _imc = peso en Kg / (altura x altura) en m2_. Escribí una función que calcule IMC. El IMC se utiliza para definir de forma amplia diferentes grupos de peso en adultos de 20 años o más. Comprobá si una persona tiene un peso bajo, peso normal, con sobrepeso u obeso según la información que se proporciona a continuación.
+- [x] El índice de masa corporal (IMC) se calcula: _imc = peso en Kg / (altura x altura) en m2_. Escribí una función que calcule IMC. El IMC se utiliza para definir de forma amplia diferentes grupos de peso en adultos de 20 años o más. Comprobá si una persona tiene un peso bajo, peso normal, con sobrepeso u obeso según la información que se proporciona a continuación.
 
   - Se aplican los mismos parámetros de grupos tanto a hombres como a mujeres.
   - Peso bajo: IMC inferior a 18,5

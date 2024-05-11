@@ -51,3 +51,36 @@ circumOfCircle(3); */
   console.log(densidad);
 }
 density(20, 4); */
+
+/* function speed(distancia, tiempo) {
+  let velocidad = distancia / tiempo;
+  console.log(velocidad);
+}
+speed(100, 10); */
+
+/* function weight(masa, gravedad) {
+  let peso = masa * gravedad;
+  console.log(peso);
+}
+weight(40, 3); */
+
+/* function convertCelsiusToFahrenheit(temperatura) {
+  let convert = (temperatura * 9) / 5 + 32;
+  console.log(convert);
+}
+convertCelsiusToFahrenheit(20); */
+
+/* function bodyMassIndex(peso, altura) {
+  let imc = peso / (altura * altura);
+  console.log(imc);
+  if (imc < 18.5) {
+    console.log("Peso bajo");
+  } else if (imc >= 18.5 && imc <= 24.99) {
+    console.log("Peso normal");
+  } else if (imc >= 25 && imc <= 29.99) {
+    console.log("Sobrepeso");
+  } else {
+    console.log("Obeso");
+  }
+}
+bodyMassIndex(72, 1.7); */
