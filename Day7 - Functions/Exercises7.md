@@ -34,7 +34,7 @@
   - Sobrepeso: IMC de 25 a 29,9
   - Obeso: IMC es 30 o más
 
-- [ ] Escribí una función llamada **checkSeason**, tomá un parámetro de mes y retorná la estación: Otoño, Invierno, Primavera o Verano.
+- [x] Escribí una función llamada **checkSeason**, tomá un parámetro de mes y retorná la estación: Otoño, Invierno, Primavera o Verano.
 
 - [ ] _Math.max_ retorna su argumento más grande. Escribí una función **findMax** que tome tres argumentos y devuelva su máximo sin usar el método _Math.max_.
 

@@ -84,3 +84,16 @@ convertCelsiusToFahrenheit(20); */
   }
 }
 bodyMassIndex(72, 1.7); */
+
+/* function checkSeason(mes) {
+  if (mes == "Diciembre" || mes == "Enero" || mes == "Febrero") {
+    console.log("Estamos en verano!");
+  } else if (mes == "Marzo" || mes == "Abril" || mes == "Mayo") {
+    console.log("Estamos en otoño!");
+  } else if (mes == "Junio" || mes == "Julio" || mes == "Agosto") {
+    console.log("Estamos en invierno!");
+  } else if (mes == "Septiembre" || mes == "Octubre" || mes == "Noviembre") {
+    console.log("Estamos en primavera");
+  }
+}
+checkSeason("Abril"); */
