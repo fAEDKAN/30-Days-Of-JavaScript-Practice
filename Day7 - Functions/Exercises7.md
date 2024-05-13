@@ -36,7 +36,7 @@
 
 - [x] Escribí una función llamada **checkSeason**, tomá un parámetro de mes y retorná la estación: Otoño, Invierno, Primavera o Verano.
 
-- [ ] _Math.max_ retorna su argumento más grande. Escribí una función **findMax** que tome tres argumentos y devuelva su máximo sin usar el método _Math.max_.
+- [x] _Math.max_ retorna su argumento más grande. Escribí una función **findMax** que tome tres argumentos y devuelva su máximo sin usar el método _Math.max_.
 
 ```javascript
 console.log(findMax(0, 10, 5));
