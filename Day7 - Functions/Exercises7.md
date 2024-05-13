@@ -62,19 +62,19 @@ console.log(solveQuadratic(1, 0, -4)); //{2, -2}
 console.log(solveQuadratic(1, -1, 0)); //{1, 0}
 ```
 
-- [ ] Declará una función llamada **printArray**. Tomá un array como parámetro e imprimí cada valor del array.
+- [x] Declará una función llamada **printArray**. Toma un array como parámetro e imprime cada valor del array.
 
-- [ ] Declará una función llamada **showDateTime** que muestre la hora en este formato: _01/08/2020 04:08_ usando el objeto _Date_.
+- [x] Declará una función llamada **showDateTime** que muestre la hora en este formato: _08/01/2020 04:08_ usando el objeto _Date_.
 
 ```javascript
 showDateTime()
 08/01/2020 04:08
 ```
 
-- [ ] Declará una función llamada **swapValues**. Esta función _intercambia_ el valor de _x_ a _y_.
+- [x] Declará una función llamada **swapValues**. Esta función _intercambia_ el valor de _x_ a _y_.
 
 ```javascript
-swapValues(3, 4); // x => 4, y=>3
+swapValues(3, 4); // x => 4, y => 3
 swapValues(4, 5); // x = 5, y = 4
 ```
 
