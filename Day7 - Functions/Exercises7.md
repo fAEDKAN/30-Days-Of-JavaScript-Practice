@@ -136,7 +136,7 @@ console.log(userIdGenerator());
 
 ## **Ejercicio: Nivel 3**
 
-- [ ] Modificá la función **userIdGenerator**. Declará una función **userIdGeneratedByUser**. No toma ningún parámetro pero toma dos entradas usando _prompt()_. Una de las entradas es la cantidad de caracteres y la segunda entrada es la cantidad de ID que se supone que se generarán.
+- [x] Modificá la función **userIdGenerator**. Declará una función **userIdGeneratedByUser**. No toma ningún parámetro pero toma dos entradas usando _prompt()_. Una de las entradas es la cantidad de caracteres y la segunda entrada es la cantidad de ID que se supone que se generarán.
 
 ```javascript
 userIdGeneratedByUser()
@@ -162,9 +162,9 @@ rgbColorGenerator();
 rgb(125, 244, 255);
 ```
 
-- [ ] Escribí una función **arrayOfHexColors** que retorna cualquier cantidad de colores hexadecimales en un array.
+- [x] Escribí una función **arrayOfHexColors** que retorna cualquier cantidad de colores hexadecimales en un array.
 
-- [ ] Escribí una función **arrayOfRgbColors** que retorna cualquier cantidad de colores RGB en un array.
+- [x] Escribí una función **arrayOfRgbColors** que retorna cualquier cantidad de colores RGB en un array.
 
 - [ ] Escribí una función **convertHexToRgb** que convierta el color hexadecimal a RGB y retorna un color RGB.
 

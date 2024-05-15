@@ -32,4 +32,37 @@ userIdGeneratedByUser(); */
 let rgbColor = rgbColorGenerator();
 console.log(rgbColor); */
 
+/* function arrayOfHexColors(numColors) {
+  let chars = "abcdef0123456789";
+  let colors = [];
+  for (let i = 0; i < numColors; i++) {
+    let hex = "#";
+    for (let j = 0; j < 6; j++) {
+      hex += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    colors += hex;
+    if (i < numColors - 1) {
+      colors += ", ";
+    }
+  }
+  return colors;
+}
+let numColors = 5;
+let randomHex = arrayOfHexColors(numColors);
+console.log(`Hexadecimal aleatorio generado: ${randomHex}`); */
+
+/* function arrayOfRgbColors(numColors) {
+  let colors = [];
+  for (let i = 0; i < numColors; i++) {
+    let rgb = [];
+    for (let j = 0; j < 3; j++) {
+      rgb.push(Math.floor(Math.random() * 256));
+    }
+    colors.push(`rgb(${rgb.join(", ")})`);
+  }
+  return colors;
+}
+let numColors = 5;
+let randomRgb = arrayOfRgbColors(numColors);
+console.log(`Colores RGB generados: ${randomRgb}`); */
 
