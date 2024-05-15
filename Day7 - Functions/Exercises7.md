@@ -155,7 +155,7 @@ dIV0SSUTgAdKwStr
 '
 ```
 
-- [ ] Escribí una función **rgbColorGenerator** que genera colores RGB.
+- [x] Escribí una función **rgbColorGenerator** que genera colores RGB.
 
 ```javascript
 rgbColorGenerator();
