@@ -166,11 +166,11 @@ rgb(125, 244, 255);
 
 - [x] Escribí una función **arrayOfRgbColors** que retorna cualquier cantidad de colores RGB en un array.
 
-- [ ] Escribí una función **convertHexToRgb** que convierta el color hexadecimal a RGB y retorna un color RGB.
+- [x] Escribí una función **convertHexToRgb** que convierta el color hexadecimal a RGB y retorna un color RGB.
 
-- [ ] Escribí una función **convertRgbToHex** que convierta RGB a color hexadecimal y retorna un color hex.
+- [x] Escribí una función **convertRgbToHex** que convierta RGB a color hexadecimal y retorna un color hex.
 
-- [ ] Escribí una función **generateColors** que pueda generar cualquier número de colores hex o RGB.
+- [x] Escribí una función **generateColors** que pueda generar cualquier número de colores hex o RGB.
 
 ```javascript
 console.log(generateColors("hex", 3)); // ['#a3e12f', '#03ed55', '#eb3d2b']
@@ -179,15 +179,15 @@ console.log(generateColors("rgb", 3)); // ['rgb(5, 55, 175)', 'rgb(50, 105, 100)
 console.log(generateColors("rgb", 1)); // 'rgb(33,79, 176)'
 ```
 
-- [ ] Llamá a tu función **shuffleArray**, que toma un array como parámetro y devuelve un array mezclado.
+- [x] Llamá a tu función **shuffleArray**, que toma un array como parámetro y devuelve un array mezclado.
 
-- [ ] Llamá a tu función **factorial**, que toma un número entero como parámetro y devuelve un factorial del número.
+- [x] Llamá a tu función **factorial**, que toma un número entero como parámetro y devuelve un factorial del número.
 
-- [ ] Llamá a tu función **isEmpty**, que toma un parámetro y verifica si está vacío o no.
+- [x] Llamá a tu función **isEmpty**, que toma un parámetro y verifica si está vacío o no.
 
-- [ ] Llamá a tu función **sum**, que toma cualquier cantidad de argumentos y devuelve la suma.
+- [x] Llamá a tu función **sum**, que toma cualquier cantidad de argumentos y devuelve la suma.
 
-- [ ] Escribí una función **sumOfArrayItems**, que toma un array como parámetro y devuelve la suma de todos los elementos. Comprobá si todos los elementos del array son de tipo numérico. Si no, dá una respuesta razonable.
+- [x] Escribí una función **sumOfArrayItems**, que toma un array como parámetro y devuelve la suma de todos los elementos. Comprobá si todos los elementos del array son de tipo numérico. Si no, dá una respuesta razonable.
 
 - [ ] Escribí una función **average**, que toma un array como parámetro y retorna el promedio de los elementos. Comprobá si todos los elementos del array son de tipo numérico. Si no, dá una respuesta adecuada.
 
