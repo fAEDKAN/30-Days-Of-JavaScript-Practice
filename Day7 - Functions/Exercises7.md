@@ -78,7 +78,7 @@ swapValues(3, 4); // x => 4, y => 3
 swapValues(4, 5); // x = 5, y = 4
 ```
 
-- [ ] Declará una función llamada **reverseArray**. Toma un array como parámetro y retorna el array invertido (no uses el método _reverse()_).
+- [x] Declará una función llamada **reverseArray**. Toma un array como parámetro y retorna el array invertido (no uses el método _reverse()_).
 
 ```javascript
 console.log(reverseArray([1, 2, 3, 4, 5]));
@@ -87,19 +87,19 @@ console.log(reverseArray(["A", "B", "C"]));
 //['C', 'B', 'A']
 ```
 
-- [ ] Declará una función llamada **capitalizeArray**. Toma un array como parámetro y retorna el array en mayúsculas.
+- [x] Declará una función llamada **capitalizeArray**. Toma un array como parámetro y retorna el array en mayúsculas.
 
-- [ ] Declará una función llamada **addItem**. Toma un elemento como parámetro y retorna un array después de agregar un elemento.
+- [x] Declará una función llamada **addItem**. Toma un elemento como parámetro y retorna un array después de agregar el elemento.
 
-- [ ] Declará una función **removeItem**. Toma como parámetro un index y retorna un array después de eliminar el elemento con ese index.
+- [x] Declará una función **removeItem**. Toma como parámetro un index y retorna un array después de eliminar el elemento con ese index.
 
-- [ ] Declará una función **sumOfNumbers**. Toma un parámetro numérico y suma todos los números en ese rango.
+- [x] Declará una función **sumOfNumbers**. Toma un parámetro numérico y suma todos los números en ese rango.
 
-- [ ] Declará una función **sumOfOdds**. Toma un parámetro numérico y suma todos los números impares en ese rango.
+- [x] Declará una función **sumOfOdds**. Toma un parámetro numérico y suma todos los números impares en ese rango.
 
-- [ ] Declará una función **sumOfEven**. Toma un parámetro numérico y suma todos los números pares en ese rango.
+- [x] Declará una función **sumOfEven**. Toma un parámetro numérico y suma todos los números pares en ese rango.
 
-- [ ] Declará una función **evensAndOdds**. Toma un entero positivo como parámetro y cuenta el número de pares e impares en el número.
+- [x] Declará una función **evensAndOdds**. Toma un entero positivo como parámetro y cuenta el número de pares e impares en el número.
 
 ```javascript
 evensAndOdds(100);
@@ -107,25 +107,25 @@ El número de impares son 50.
 El número de pares es 51.
 ```
 
-- [ ] Escribí una función que tome cualquier número de argumentos y retorne la suma de los argumentos.
+- [x] Escribí una función que tome cualquier número de argumentos y retorne la suma de los argumentos.
 
 ```javascript
 sum(1, 2, 3); // -> 6
 sum(1, 2, 3, 4); // -> 10
 ```
 
-- [ ] Escribí una función **randomUserIp** que genere una _IP_ de usuario aleatoria.
+- [x] Escribí una función **randomUserIp** que genere una _IP_ de usuario aleatoria.
 
-- [ ] Escribí una función **randomMacAddress** que genere una dirección _MAC_ aleatoria.
+- [x] Escribí una función **randomMacAddress** que genere una dirección _MAC_ aleatoria.
 
-- [ ] Declará una función **randomHexNumberGenerator**. Cuando se llama a esta función, genera un número hexadecimal aleatorio. La función retorna dicho número.
+- [x] Declará una función **randomHexNumberGenerator**. Cuando se llama a esta función, genera un número hexadecimal aleatorio. La función retorna dicho número.
 
 ```javascript
 console.log(randomHexNumberGenerator());
 ("#ee33df");
 ```
 
-- [ ] Declará una función **userIdGenerator**. Cuando se llama a esta función, genera un ID de 7 caracteres. La función devuelve dicho ID.
+- [x] Declará una función **userIdGenerator**. Cuando se llama a esta función, genera un ID de 7 caracteres. La función devuelve dicho ID.
 
 ```javascript
 console.log(userIdGenerator());
