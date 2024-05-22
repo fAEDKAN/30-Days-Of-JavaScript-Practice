@@ -95,3 +95,78 @@ El bucle `do` itera al menos una vez y se repite hasta que `i` ya no sea menor q
 
 La declaración `for...of` se usa para iterar arrays. Es una forma muy práctica de iterarlos si no estamos interesados en el index de cada elemento.
 
+```javascript
+for (const variable of objeto) {
+  expresión;
+}
+```
+
+`for...of` itera sobre los valores de propiedad.
+
+```javascript
+const nums = [1, 2, 3, 4, 5];
+for (const num of nums) {
+  console.log(num);
+} // 1 2 3 4 5
+
+for (const num of nums) {
+  console.log(num * num);
+} // 1 4 9 16 25
+```
+
+---
+
+### for...in
+
+La instrucción `for...in` es una forma sencilla y poderosa de iterar sobre todas las propiedades enumerables de un objeto.
+
+```javascript
+for (let clave in objeto) {
+  expresión;
+}
+```
+
+- `clave` es una variable usada para almacenar el nombre de la propiedad actual en cada iteración.
+- `objeto` es el objeto cuyas propiedades se están iterando.
+
+`for...in` itera sobre los nombres de propiedad.
+
+```javascript
+const arr = [3, 5, 7];
+arr.foo = "hola";
+for (let i in arr) {
+  console.log(i);
+} // 0, 1, 2, foo
+```
+
+---
+
+### break
+
+Se utiliza para interrumpir un bucle.
+
+```javascript
+for (let i = 0; i <= 5; i++) {
+  if (i == 3) {
+    break;
+  }
+  console.log(i);
+} // 0 1 2
+```
+
+La ejecución se detiene cuando `i` es igual a 3 en la iteración.
+
+---
+
+### continue
+
+Cuando se usa `continue`, se termina la iteración actual y continúa la ejecución del bucle con la siguiente iteración. A diferencia de `break`, no termina la ejecución por completo. En un loop `while`, vuelve a la condición, en un `for`, salta a la expresión de `actualización`.
+
+```javascript
+for (let i = 0; i <= 5; i++) {
+  if (i == 3) {
+    continue;
+  }
+  console.log(i);
+} // 0 1 2 4 5
+```
