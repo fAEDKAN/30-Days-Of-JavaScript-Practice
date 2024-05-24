@@ -189,31 +189,31 @@ console.log(generateColors("rgb", 1)); // 'rgb(33,79, 176)'
 
 - [x] Escribí una función **sumOfArrayItems**, que toma un array como parámetro y devuelve la suma de todos los elementos. Comprobá si todos los elementos del array son de tipo numérico. Si no, dá una respuesta razonable.
 
-- [ ] Escribí una función **average**, que toma un array como parámetro y retorna el promedio de los elementos. Comprobá si todos los elementos del array son de tipo numérico. Si no, dá una respuesta adecuada.
+- [x] Escribí una función **average**, que toma un array como parámetro y retorna el promedio de los elementos. Comprobá si todos los elementos del array son de tipo numérico. Si no, dá una respuesta adecuada.
 
-- [ ] Escribí una función **modifyArray** que tome un array como parámetro y modifique el quinto elemento del array y retorna el array. Si la longitud del array es inferior a cinco, retorna 'elemento no encontrado'.
+- [x] Escribí una función **modifyArray** que tome un array como parámetro, modifique el quinto elemento y retorne el array. Si la longitud del array es inferior a cinco, retorna 'elemento no encontrado'.
 
 ```javascript
-console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']);
+console.log(modifyArray(['Avocado', 'Tomato', 'Potato','Mango', 'Lemon','Carrot']));
 ['Avocado', 'Tomato', 'Potato','Mango', 'LEMON', 'Carrot']
-console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']);
+console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon','Microsoft',  'IBM']));
 ['Google', 'Facebook','Apple', 'Amazon','MICROSOFT',  'IBM']
-console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']);
+console.log(modifyArray(['Google', 'Facebook','Apple', 'Amazon']));
   'Not Found'
 ```
 
-- [ ] Escribí una función **isPrime**, que verifica si un número es primo.
+- [x] Escribí una función **isPrime**, que verifica si un número es primo.
 
-- [ ] Escribí una función que verifique si todos los elementos de un array son únicos.
+- [x] Escribí una función que verifique si todos los elementos de un array son únicos.
 
-- [ ] Escribí una función que verifique si todos los elementos de un array son del mismo tipo de dato.
+- [x] Escribí una función que verifique si todos los elementos de un array son del mismo tipo de dato.
 
-- [ ] El nombre de las variables de JavaScript no admite caracteres o símbolos especiales, excepto $ o \_. Escribí una función **isValidVariable** que verifique si una variable es válida o inválida.
+- [x] El nombre de las variables de JavaScript no admite caracteres o símbolos especiales, excepto $ o \_. Escribí una función **isValidVariable** que verifique si una variable es válida o inválida.
 
-- [ ] Escribí una función que devuelva un array de siete números aleatorios en un rango de 0-9. Todos los números deben ser únicos.
+- [x] Escribí una función que devuelva un array de siete números aleatorios en un rango de 0-9. Todos los números deben ser únicos.
 
 ```javascript
 sevenRandomNumbers()[(1, 4, 5, 7, 9, 8, 0)];
 ```
 
-- [ ] Escribí una función **reverseCountries**, toma el array **countries**, primero copia el array y devuelve el array original invertido.
+- [x] Escribí una función **reverseCountries**, toma el array **countries**, primero copia el array y devuelve el array original invertido.

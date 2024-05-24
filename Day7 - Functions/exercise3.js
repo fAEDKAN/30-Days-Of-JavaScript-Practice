@@ -1,3 +1,5 @@
+const countries = require("../Day5 - Arrays/countries.js");
+
 /* function userIdGeneratedByUser() {
   const numChars = parseInt(prompt("Ingrese la cantidad de caracteres para los IDs:"), 10);
   const numIds = parseInt(prompt("Ingrese la cantidad de IDs a generar:"), 10);
@@ -226,3 +228,102 @@ console.log(sumOfArrayItems("No soy un array.")); */
   }
   return total;
 } */
+
+/* function average(nums) {
+  for (let i = 0; i < nums.length; i++) {
+    if (typeof nums[i] !== "number") {
+      return "Error: Todos los elementos deben ser números!";
+    }
+  }
+  let sum = 0;
+  for (let i = 0; i < nums.length; i++) {
+    sum += nums[i];
+  }
+  let averageNums = sum / nums.length;
+  return averageNums;
+}
+console.log(average([19, 22, 19, 24, 20, 25, 26, 24, 25, 24])); */
+
+/* function modifyArray(arr, newValue) {
+  if (arr.length < 5) {
+    return "Elemento no encontrado!";
+  }
+  arr[4] = newValue.toUpperCase();
+  return arr;
+}
+console.log(
+  modifyArray(
+    ["Avocado", "Tomato", "Potato", "Mango", "Lemon", "Carrot"],
+    "banana"
+  )
+);
+console.log(
+  modifyArray(
+    ["Google", "Facebook", "Apple", "Amazon", "Microsoft", "IBM"],
+    "Netflix"
+  )
+);
+console.log(modifyArray(["Quilmes", "Brahma", "Heineken"])); */
+
+/* function isPrime(num) {
+  if (num % 2 === 0) {
+    return "El número es primo!";
+  } else {
+    return "El número no es primo";
+  }
+}
+console.log(isPrime(5)); */
+
+/* function areUniques(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] === arr[j]) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+console.log(areUniques([1, 2, 3, 4, 5]));
+console.log(areUniques([1, 2, 3, 4, 5, 1]));
+console.log(areUniques(["a", "b", "c", "d", "e"]));
+console.log(areUniques(["a", "b", "c", "d", "e", "a"])); */
+
+/* function sameType(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] !== typeof arr[0]) {
+      return "Los datos no son todos del mismo tipo";
+    }
+  }
+  return "Todos los datos son del mismo tipo";
+}
+console.log(sameType([1, 2, 3, 4, 5]));
+console.log(sameType(["Arg", "Br", "Ch", "Uy", "Py"]));
+console.log(sameType([8, "Elsa Pallito", 19])); */
+
+/* function isValidVariable(variableName) {
+  return /^[a-zA-Z0-9_$]*$/.test(variableName);
+}
+console.log(isValidVariable("variable"));
+console.log(isValidVariable("_variable"));
+console.log(isValidVariable("$variable"));
+console.log(isValidVariable("1variable"));
+console.log(isValidVariable("va$riable"));
+console.log(isValidVariable("var-iable"));
+console.log(isValidVariable("#var-iable"));
+console.log(isValidVariable("")); */
+
+/* function randomNumbers() {
+  let uniqueNumbers = new Set();
+  while (uniqueNumbers.size < 7) {
+    uniqueNumbers.add(Math.floor(Math.random() * 10));
+  }
+  return Array.from(uniqueNumbers);
+}
+console.log(randomNumbers()); */
+
+/* function reverseCountries() {
+  let countriesCopy = countries.slice();
+  return countriesCopy.reverse();
+}
+console.log(reverseCountries()); */
