@@ -6,7 +6,7 @@ Son funciones que toman otra función como parámetro o retorna una función com
 
 ### Callback
 
-Es una función que puede ser pasada como parámetro a otra función.
+Es una función que se pasa a otra como argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
 
 ```javascript
 // función callback, el nombre puede ser cualquiera
