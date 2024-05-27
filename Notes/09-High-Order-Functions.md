@@ -2,7 +2,7 @@
 
 ## Función de orden superior
 
-Son funciones que toman otra función como parámetro o retorna una función como valor. La función pasada como parámetro se llama _callback_.
+Son funciones que toman otra función como parámetro o retornan una función como valor. La función pasada como parámetro se llama _callback_.
 
 ### Callback
 
@@ -20,3 +20,59 @@ function cube(callback, n) {
 }
 console.log(cube(callback, 3));
 ```
+
+- Se llama a `cube(callback, 3)`.
+- Dentro de `cube`, se ejecuta `callback(3)`. La función callback toma 3 y calcula 3 \*\* 2, que es 9.
+- El resultado de `callback(3)` es 9.
+- Luego, `cube` multiplica el resultado de `callback(3)` (que es 9) por n (que es 3): 9 \* 3.
+- Esto da como resultado 27.
+- Finalmente, console.log imprime 27.
+
+### Retornar una función
+
+Las _high order functions_ retornan una función como valor.
+
+```javascript
+const higherOrder = (n) => {
+  const doSomething = (m) => {
+    const doWhatEver = (t) => {
+      return 2 * n + 3 * m + t;
+    };
+    return doWhatEver;
+  };
+  return doSomething;
+};
+console.log(higherOrder(2)(3)(10));
+// (2 * 2) + (3 * 3) + 10 => 4 + 9 + 10 = 23
+```
+
+#### El método forEach() usa callback
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const sumArray = (arr) => {
+  let sum = 0;
+  const callback = function (element) {
+    sum += element;
+  };
+  arr.forEach(callback);
+  return sum;
+};
+console.log(sumArray(numbers)); // 15
+```
+
+Puede simplificarse así:
+
+```javascript
+const numbers = [1, 2, 3, 4];
+const sumArray = (arr) => {
+  let sum = 0;
+  arr.forEach(function (element) {
+    sum += element;
+  });
+  return sum;
+};
+console.log(sumArray(numbers)); // 15
+```
+
+### Configuración de tiempo
