@@ -127,3 +127,120 @@ setTimeout(sayHello(), 2000); // Imprime Hello! después de 2 segundos
 ---
 
 ## Programación funcional
+
+La última versión de **JS** trajo consigo muchos métodos integrados que nos pueden ayudar a resolver problemas complicados. Estos métodos toman la función _callback_. Veremos .
+
+La última versión de **JS** trajo consigo métodos integrados, como: _forEach_, _map_, _filter_, _reduce_, _find_, _every_, _some_ y _sort_, que podemos usar en lugar de un bucle regular, y pueden ayudarnos a resolver problemas complicados.
+
+---
+
+### forEach()
+
+Lo usamos sólo para iterar arrays. Toma un _callback_ con elementos, index y el propio array, estos últimos dos son opcionales.
+
+```javascript
+arr.forEach(function (element, index, arr) {
+  console.log(index, element, arr);
+});
+// También se puede escribir usando arrow function
+arr.forEach((element, index arr) => {
+  console.log(index, element, arr)
+}):
+// arrow function + return
+arr.forEach((element, index, arr) => console.log(index, element, arr))
+```
+
+```javascript
+let sum = 0;
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach((num) => console.log(num));
+console.log(sum);
+// 1
+// 2
+// 3
+// 4
+// 5
+```
+
+```javascript
+let sum = 0;
+const numbers = [1, 2, 3, 4, 5];
+numbers.forEach((num) => (sum += num));
+
+console.log(sum);
+// 1
+// 2
+// 3
+// 4
+// 5
+```
+
+---
+
+### map()
+
+Lo usamos para iterar los elementos de un array y modificar los mismos. Toma un _callback_ con elementos, index y el propio array, devolviendo un nuevo array.
+
+```javascript
+const modifiedArray = arr.map(function (element, index, arr) {
+  return element;
+});
+```
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const numbersSquare = numbers.map((num) => num * num);
+console.log(numbersSquare); // [ 1, 4, 9, 16, 25 ]
+```
+
+```javascript
+const countries = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
+const countriesFirstThreeLetters = countries.map((country) =>
+  country.toUpperCase().slice(0, 3)
+);
+//  ["ALB", "BOL", "CAN", "DEN", "ETH", "FIN", "GER", "HUN", "IRE", "JAP", "KEN"]
+```
+
+---
+
+### filter()
+
+Lo utilizamos para filtrar los elementos que cumplen las condiciones de filtrado y devuelve un nuevo array.
+
+```javascript
+//Filtra los países que contienen 'land'
+const countriesContainingLand = countries.filter((country) =>
+  country.includes("land")
+);
+console.log(countriesContainingLand); // ['Finland', 'Ireland']
+```
+
+```javascript
+const countriesEndsWithIa = countries.filter((country) =>
+  country.endsWith("ia")
+);
+console.log(countriesEndsWithIa); // ['Albania', 'Bolivia','Ethiopia']
+```
+
+```javascript
+const countriesHaveFiveLetters = countries.filter(
+  (country) => country.length === 5
+);
+console.log(countriesHaveFiveLetters); // ['Japan', 'Kenya']
+```
+
+---
+
+### reduce()
