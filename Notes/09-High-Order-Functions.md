@@ -1,4 +1,4 @@
-# 📔 Día 8: High Order Functions.
+# 📔 Día 9: High Order Functions.
 
 ## Función de orden superior
 
@@ -244,3 +244,28 @@ console.log(countriesHaveFiveLetters); // ['Japan', 'Kenya']
 ---
 
 ### reduce()
+
+Ejecuta una función _reductora_ sobre cada elemento de un array, devolviendo como resultado un único valor. La función `reduce` recibe cuatro argumentos:
+
+1. Acumulador (`acc`)
+2. Valor Actual (`cur`)
+3. Índice Actual (`index`)
+4. Array (`arr`)
+
+El valor devuelto de la función se asigna al acumulador, cuyo valor se recuerda en cada iteración del array y, en su última instancia, se convierte en el valor final, único y resultante.
+
+```javascript
+const arr = [1, 2, 3, 4]; // 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = arr.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValues
+);
+console.log(sumWithInitial); // 10
+```
+
+---
+
+### every ()
+
+Comprueba si todos los elementos son similares en un aspecto y devuelve un _booleano_.
