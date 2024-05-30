@@ -245,27 +245,58 @@ console.log(countriesHaveFiveLetters); // ['Japan', 'Kenya']
 
 ### reduce()
 
-Ejecuta una función _reductora_ sobre cada elemento de un array, devolviendo como resultado un único valor. La función `reduce` recibe cuatro argumentos:
+El valor devuelto de la función se asigna al acumulador, cuyo valor se recuerda en cada iteración del array y, en su última instancia, se convierte en el valor final, único y resultante. Recibe cuatro argumentos:
 
-1. Acumulador (`acc`)
-2. Valor Actual (`cur`)
-3. Índice Actual (`index`)
-4. Array (`arr`)
-
-El valor devuelto de la función se asigna al acumulador, cuyo valor se recuerda en cada iteración del array y, en su última instancia, se convierte en el valor final, único y resultante.
+1. Acumulador (`acc`): Acumula el valor devuelto por el callback.
+2. Valor Actual (`cur`): Elemento actual que está siendo procesado en el array.
+3. Índice Actual (`index`): Índice del elemento actual, comienza en 0 si se proporciona un `valor inicial`, caso contrario comienza en 1.
+4. Array (`arr`): Array sobre el cual se llamó al método `reduce()`.
 
 ```javascript
 const arr = [1, 2, 3, 4]; // 0 + 1 + 2 + 3 + 4
 const initialValue = 0;
-const sumWithInitial = arr.reduce(
-  (accumulator, currentValue) => accumulator + currentValue,
-  initialValues
-);
+const sumWithInitial = arr.reduce((acc, cur) => acc + cur, initialValues);
 console.log(sumWithInitial); // 10
 ```
 
 ---
 
-### every ()
+### every()
 
 Comprueba si todos los elementos son similares en un aspecto y devuelve un _booleano_.
+
+```javascript
+const names = ["Susana Horia", "Elsa Pallito", "Armando Casas"];
+const areAllStr = names.every((name) => typeof name === "string"); // Son todos strings?
+console.log(areAllStr); // true
+```
+
+```javascript
+const booleans = [true, true, true, true];
+const areAllTrue = booleans.every((b) => b === true); // Son todos true?
+console.log(areAllTrue); // true
+```
+
+---
+
+### find()
+
+Retorna el primer elemento que cumple la condición.
+
+```javascript
+const ages = [24, 22, 25, 32, 35, 18];
+const age = ages.find((age) => age < 20);
+console.log(age); // 18
+```
+
+```javascript
+const scores = [
+  { name: "Susana", score: 95 },
+  { name: "Elena", score: 80 },
+  { name: "Elsa", score: 50 },
+  { name: "Marta", score: 85 },
+  { name: "Josefa", score: 100 },
+];
+const score = scores.find((user) => user.score > 80);
+console.log(score); //  { name: "Susana", score: 95 }
+```
