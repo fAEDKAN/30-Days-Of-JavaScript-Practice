@@ -300,3 +300,9 @@ const scores = [
 const score = scores.find((user) => user.score > 80);
 console.log(score); //  { name: "Susana", score: 95 }
 ```
+
+---
+
+### findIndex()
+
+Retorna la posición (el índice) del primer elemento que cumple la condición
