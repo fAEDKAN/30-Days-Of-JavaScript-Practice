@@ -306,3 +306,12 @@ console.log(score); //  { name: "Susana", score: 95 }
 ### findIndex()
 
 Retorna la posición (el índice) del primer elemento que cumple la condición
+
+```javascript
+const names = ["Susana", "Elsa", "Marta", "Florencia"];
+const ages = [24, 22, 25, 32, 35, 18];
+const result = names.findIndex((name) => name.length > 7);
+console.log(result); // 3
+const age = ages.findIndex((age) => age < 20);
+console.log(age); // 5
+```
