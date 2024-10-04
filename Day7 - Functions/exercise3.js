@@ -313,14 +313,14 @@ console.log(isValidVariable("var-iable"));
 console.log(isValidVariable("#var-iable"));
 console.log(isValidVariable("")); */
 
-/* function randomNumbers() {
-  let uniqueNumbers = new Set();
-  while (uniqueNumbers.size < 7) {
-    uniqueNumbers.add(Math.floor(Math.random() * 10));
-  }
-  return Array.from(uniqueNumbers);
+function randomNumbers() {
+    let uniqueNumbers = new Set();
+    while (uniqueNumbers.size < 7) {
+        uniqueNumbers.add(Math.floor(Math.random() * 10));
+    }
+    return Array.from(uniqueNumbers);
 }
-console.log(randomNumbers()); */
+console.log(randomNumbers());
 
 function reverseCountries() {
     let countriesCopy = countries.slice();
