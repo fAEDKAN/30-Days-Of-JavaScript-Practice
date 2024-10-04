@@ -322,8 +322,8 @@ console.log(isValidVariable("")); */
 }
 console.log(randomNumbers()); */
 
-/* function reverseCountries() {
-  let countriesCopy = countries.slice();
-  return countriesCopy.reverse();
+function reverseCountries() {
+    let countriesCopy = countries.slice();
+    return countriesCopy.reverse();
 }
-console.log(reverseCountries()); */
+console.log(reverseCountries());
